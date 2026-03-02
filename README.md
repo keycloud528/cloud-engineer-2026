@@ -4,7 +4,7 @@
 Become job-ready Cloud Engineer in 6 months.
 
 ## Period
-2026.03.02 - 2026.08.31
+2026.03.02 - 2026.09.30
 
 ## Projects
 - [ ] EC2 WordPress Deployment
