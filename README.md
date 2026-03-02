@@ -16,3 +16,5 @@ Become job-ready Cloud Engineer in 6 months.
 
 ## Study Log
 Weekly execution logs will be documented per project.
+
+Day 1: Git environment setup completed.
