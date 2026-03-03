@@ -18,3 +18,10 @@ Become job-ready Cloud Engineer in 6 months.
 Weekly execution logs will be documented per project.
 
 Day 1: Git environment setup completed.
+
+Day 2: Cloud Basics
+
+- Learned cloud computing fundamentals
+- Understood Region vs Availability Zone
+- EC2 is deployed in a specific Availability Zone
+- High availability must be designed by the user
