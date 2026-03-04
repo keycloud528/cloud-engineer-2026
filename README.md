@@ -21,7 +21,39 @@ Day 1: Git environment setup completed.
 
 Day 2: Cloud Basics
 
+# Topics Learned
 - Learned cloud computing fundamentals
 - Understood Region vs Availability Zone
 - EC2 is deployed in a specific Availability Zone
 - High availability must be designed by the user
+
+Day 3: EC2 Launch and SSH Connection
+
+# Topics Learned
+- AWS Cloud Practitioner Essentials (Module 1)
+- EC2 fundamentals
+- SSH remote connection
+- Key pair authentication
+- Security Groups
+- EC2 Stop vs Terminate
+
+# Hands-on Practice
+Today I launched my first EC2 instance using Amazon Linux.
+
+I created an SSH key pair and downloaded the private key file (.pem).  
+Using WSL Ubuntu on my local machine, I connected to the EC2 instance via SSH.
+
+After successfully connecting to the server, I executed several basic Linux commands such as:
+
+- whoami
+- uname -a
+- ls
+
+Finally, I stopped the EC2 instance to avoid unnecessary charges.
+
+# Key Takeaways
+This was my first experience launching and accessing a cloud server.
+
+I now understand how a local machine connects to a remote EC2 server using SSH and key pair authentication.
+
+I also learned the difference between stopping and terminating an EC2 instance.
