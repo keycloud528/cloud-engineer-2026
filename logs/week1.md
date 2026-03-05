@@ -115,3 +115,31 @@ ls
 ### Output / Evidence
 - SSH login succeeded from WSL Ubuntu.
 - Instance state changed to stopped after the test.
+
+---
+
+## Day 4 – AWS Architecture Basics
+
+### Topics
+- AWS Cloud Practitioner Essentials (Module 2)
+- High Availability
+- Auto Scaling
+- Load Balancing
+- Horizontal vs Vertical Scaling
+- CLI vs SDK
+- AMI basics
+- Public IP vs Private IP
+
+### Hands-on
+- Started EC2 instance
+- Connected via SSH using WSL
+- Verified server access
+- Stopped EC2 instance
+
+### Key Learnings
+High availability in AWS is achieved using multiple EC2 instances, load balancers, and auto scaling.
+
+Horizontal scaling (adding more instances) is generally preferred over vertical scaling because it improves fault tolerance.
+
+EC2 instances communicate internally using private IP addresses, while public IP addresses allow internet access.
+
