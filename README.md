@@ -19,6 +19,8 @@ Weekly execution logs will be documented per project.
 
 Day 1: Git environment setup completed.
 
+---
+
 Day 2: Cloud Basics
 
 # Topics Learned
@@ -26,6 +28,8 @@ Day 2: Cloud Basics
 - Understood Region vs Availability Zone
 - EC2 is deployed in a specific Availability Zone
 - High availability must be designed by the user
+
+---
 
 Day 3: EC2 Launch and SSH Connection
 
@@ -57,3 +61,17 @@ This was my first experience launching and accessing a cloud server.
 I now understand how a local machine connects to a remote EC2 server using SSH and key pair authentication.
 
 I also learned the difference between stopping and terminating an EC2 instance.
+
+---
+
+Day 4: AWS Architecture Basics
+
+# Topics Learned
+- AWS Cloud Practitioner Essentials (Module 2)
+- High availability concepts
+- Horizontal scaling vs Vertical scaling
+- Load Balancer fundamentals
+- Auto Scaling basics
+- CLI vs SDK
+- AMI (Amazon Machine Image)
+- Public IP vs Private IP networking concept
