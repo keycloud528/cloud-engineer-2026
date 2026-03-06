@@ -143,3 +143,62 @@ Horizontal scaling (adding more instances) is generally preferred over vertical 
 
 EC2 instances communicate internally using private IP addresses, while public IP addresses allow internet access.
 
+---
+
+## Day 5 – Serverless and Compute Services
+
+### Topics
+
+- Introduction to Serverless Computing
+- AWS Lambda fundamentals
+- Container concepts and Docker overview
+- Additional AWS compute services
+- Load Balancing and Auto Scaling architecture
+
+### Key Concepts
+
+**AWS Lambda**
+
+Lambda is a serverless compute service that executes code in response to events without managing servers.
+
+**Containers**
+
+Containers package an application and its dependencies into a portable environment that can run consistently across systems.
+
+**Container Image**
+
+A container image is a blueprint used to create containers.
+ - ECS(Elastic Container Service)
+ - EKS(Elastic Kubernetes Service)
+ - ECR(Elastic Container Registry)
+
+**Additional AWS compute services**
+ - Elastic Beanstalk
+ - AWS Batch
+ - AWS Lightsail
+ - AWS Outposts
+
+**Load Balancer**
+
+Load balancers distribute incoming requests across multiple servers to improve availability and reliability.
+
+**Auto Scaling**
+
+Auto Scaling maintains application availability by automatically adjusting the number of EC2 instances.
+
+Key parameters include:
+- Minimum capacity
+- Desired capacity
+- Maximum capacity
+
+**Amazon S3**
+
+Amazon S3 is an object storage service accessed through HTTP APIs.  
+Objects are private by default and can be made public using bucket policies.
+
+### Hands-on
+
+- Created an S3 bucket
+- Uploaded a test file
+- Attempted to access the object using an Object URL
+- Learned about S3 public access control and bucket policies

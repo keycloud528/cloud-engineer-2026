@@ -75,3 +75,14 @@ Day 4: AWS Architecture Basics
 - CLI vs SDK
 - AMI (Amazon Machine Image)
 - Public IP vs Private IP networking concept
+
+---
+
+Day 5: Serverless and Containers
+
+# Topics Learned
+- AWS Lambda fundamentals
+- Event-driven serverless architecture
+- Container and container image concepts
+- Load Balancer and Auto Scaling architecture review
+- Introduction to Amazon S3 storage
