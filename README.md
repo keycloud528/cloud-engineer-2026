@@ -86,3 +86,14 @@ Day 5: Serverless and Containers
 - Container and container image concepts
 - Load Balancer and Auto Scaling architecture review
 - Introduction to Amazon S3 storage
+
+---
+
+Day 6: AWS Global Infrastructure
+
+# Topics Learned
+- AWS Global Infrastructure
+- Edge Locations
+- Infrastructure as Code (IaC)
+- AWS CloudFormation
+- Choosing an AWS Region

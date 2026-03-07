@@ -202,3 +202,28 @@ Objects are private by default and can be made public using bucket policies.
 - Uploaded a test file
 - Attempted to access the object using an Object URL
 - Learned about S3 public access control and bucket policies
+
+---
+
+## Day 6 – AWS Global Infrastructure and Storage Basics
+
+### Topics Learned
+- AWS Global Infrastructure
+- Regions and Edge Locations
+- Infrastructure as Code (IaC)
+- AWS CloudFormation
+- Choosing an AWS Region (Compliance, Proximity, Feature availability, Pricing)
+
+### Hands-on Practice
+Previously created an Amazon S3 bucket and uploaded a text file.
+
+Verified that the uploaded object can be accessed through the Object URL when public access is configured.
+
+This helped me understand how Amazon S3 stores objects and delivers them through region-based infrastructure.
+
+### Key Takeaways
+Learned that AWS global infrastructure consists of Regions, Availability Zones, and Edge Locations.
+
+Regions determine where cloud resources are physically located, which affects compliance requirements, latency, and pricing.
+
+Infrastructure as Code allows cloud infrastructure to be defined and deployed programmatically using tools such as AWS CloudFormation.
