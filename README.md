@@ -17,6 +17,8 @@ Become job-ready Cloud Engineer in 6 months.
 ## Study Log
 Weekly execution logs will be documented per project.
 
+Week 1: EC2 basics, SSH connection, S3 Fundamentals
+
 Day 1: Git environment setup completed.
 
 ---
@@ -44,7 +46,7 @@ Day 3: EC2 Launch and SSH Connection
 # Hands-on Practice
 Today I launched my first EC2 instance using Amazon Linux.
 
-I created an SSH key pair and downloaded the private key file (.pem).  
+I created an SSH key pair and downloaded the private key file (.pem).
 Using WSL Ubuntu on my local machine, I connected to the EC2 instance via SSH.
 
 After successfully connecting to the server, I executed several basic Linux commands such as:
@@ -97,3 +99,37 @@ Day 6: AWS Global Infrastructure
 - Infrastructure as Code (IaC)
 - AWS CloudFormation
 - Choosing an AWS Region
+
+---
+
+Week 2
+
+Day 7: VPC Networking and Bastion Architecture
+
+# Topics Learned
+- AWS VPC (Virtual Private Cloud) architecture fundamentals
+- CIDR block configuration (10.0.0.0/16)
+- Public subnet vs Private subnet design
+- Internet Gateway setup and routing to the internet
+- Route Table configuration for public and private networks
+- Security Group configuration for controlled SSH access
+- Bastion Host architecture for secure access to private instances
+- SSH connection flow: WSL → Bastion Host → Private EC2
+- Private network isolation verification (no internet access without NAT Gateway)
+
+# Hands-on Practice
+Built a basic VPC networking architecture in AWS.
+
+Created a VPC, public and private subnets, Internet Gateway, and route tables.
+Deployed a Bastion EC2 in the public subnet and a Private EC2 in the private subnet.
+
+Connected from WSL → Bastion → Private EC2 using SSH.
+
+Verified that the private EC2 cannot access the internet without a NAT Gateway.
+
+# Key Takeaways
+I learned how to design a basic VPC network with public and private subnets.
+
+I also understood how Bastion hosts allow secure SSH access to private servers and how route tables control internet connectivity.
+
+---

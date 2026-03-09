@@ -193,7 +193,7 @@ Key parameters include:
 
 **Amazon S3**
 
-Amazon S3 is an object storage service accessed through HTTP APIs.  
+Amazon S3 is an object storage service accessed through HTTP APIs.
 Objects are private by default and can be made public using bucket policies.
 
 ### Hands-on
@@ -227,3 +227,7 @@ Learned that AWS global infrastructure consists of Regions, Availability Zones, 
 Regions determine where cloud resources are physically located, which affects compliance requirements, latency, and pricing.
 
 Infrastructure as Code allows cloud infrastructure to be defined and deployed programmatically using tools such as AWS CloudFormation.
+
+---
+
+
