@@ -13,17 +13,17 @@ CIDR: 10.0.0.0/16
 
 Subnets
 
-Public Subnet  
+Public Subnet 
 10.0.1.0/24
 
-Private Subnet  
+Private Subnet 
 10.0.2.0/24
 
 ---
 
 ## Networking Components
 
-Internet Gateway  
+Internet Gateway 
 Attached to the VPC.
 
 Route Tables
@@ -87,3 +87,70 @@ Internet Gateway
 Route Table
 Public vs Private subnet
 Bastion Host
+
+---
+
+## Day 8 — S3 Storage and CLI Lab
+
+### Environment
+Local machine: WSL Ubuntu
+Cloud: AWS S3
+
+---
+
+### S3 Setup
+
+Created S3 bucket:
+
+ce-bootcamp2026-s3
+
+Uploaded objects:
+
+test.txt
+day8.txt 
+s3-lab.txt 
+
+---
+
+### AWS CLI Setup
+
+Installed AWS CLI v2 using the official AWS installer.
+
+Commands used:
+
+curl https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip 
+unzip awscliv2.zip 
+sudo ./aws/install
+
+Configured authentication:
+
+aws configure
+
+---
+
+### S3 CLI Operations
+
+List buckets
+
+aws s3 ls
+
+List objects
+
+aws s3 ls s3://ce-bootcamp2026-s3/
+
+Upload object
+
+aws s3 cp s3-lab.txt s3://ce-bootcamp2026-s3/
+
+Download object
+
+aws s3 cp s3://ce-bootcamp2026-s3/day8.txt .
+
+---
+
+### Key Learning Points
+
+- S3 uses object storage instead of traditional file systems
+- S3 objects are identified using keys, not folders
+- AWS CLI allows direct control of cloud resources
+- IAM permissions are required for S3 access

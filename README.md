@@ -133,3 +133,27 @@ I learned how to design a basic VPC network with public and private subnets.
 I also understood how Bastion hosts allow secure SSH access to private servers and how route tables control internet connectivity.
 
 ---
+Day 8: AWS Storage and S3
+
+# Topics Learned
+- AWS Storage types: Block, Object, File storage
+- Amazon S3 object storage architecture
+- S3 bucket and object structure
+- Flat address space concept
+- EBS snapshots and incremental backup
+- AWS CLI installation and configuration
+- IAM permissions for S3 access
+
+---
+
+# Hands-on Practice
+Today I installed AWS CLI on my WSL environment and configured authentication using IAM access keys.
+
+I created an S3 bucket and uploaded objects using both the AWS Console and the AWS CLI. I also practiced downloading and listing objects directly from the terminal.
+
+Additionally, I tested pseudo-folder structures in S3 by uploading an object using a key path.
+
+# Key Takeaways
+I learned that S3 is not a traditional filesystem but an object storage system that uses keys instead of directories.
+
+Using AWS CLI to interact with S3 gave me a better understanding of how cloud storage can be managed programmatically.
