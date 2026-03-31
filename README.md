@@ -133,6 +133,7 @@ I learned how to design a basic VPC network with public and private subnets.
 I also understood how Bastion hosts allow secure SSH access to private servers and how route tables control internet connectivity.
 
 ---
+
 Day 8: AWS Storage and S3
 
 # Topics Learned
@@ -157,3 +158,29 @@ Additionally, I tested pseudo-folder structures in S3 by uploading an object usi
 I learned that S3 is not a traditional filesystem but an object storage system that uses keys instead of directories.
 
 Using AWS CLI to interact with S3 gave me a better understanding of how cloud storage can be managed programmatically.
+
+---
+
+Day 9: RDS & EC2 Database Integration
+
+# Topics Learned
+- Amazon RDS (Relational Database Service)
+- MySQL on RDS
+- DB Subnet Group and Multi-AZ concept
+- Security Group-based database access control
+- EC2 → RDS connection flow
+
+# Hands-on Practice
+- Created RDS instance (MySQL)
+- Configured VPC and Subnet (Multi-AZ requirement)
+- Fixed VPC mismatch and subnet issues
+- Set up Security Group for DB access (EC2 → RDS)
+- Connected EC2 to RDS using MySQL client
+- Created database and table, inserted and queried data
+
+# Key Takeaways
+- Databases should be placed in private subnets
+- Only application servers (EC2) should access RDS
+- Security Groups act as firewalls between services
+- RDS requires subnets in multiple Availability Zones
+- Cloud architecture must consider network design, not just resources
